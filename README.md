@@ -1,0 +1,3 @@
+This script sends an HTTP request to the URL and parses the response using BeautifulSoup to find all forms. Then it iterates over the forms, creates a dictionary with the form fields, and sends a request to the form action URL with manipulated field values that might trigger a SQL error if the website is vulnerable.
+
+This is a very simple script and should be used for educational purposes only. It might produce false positives and negatives. For a proper vulnerability scanning, tools like SQLmap are recommended, which use advanced techniques to detect and exploit SQL injection vulnerabilities.
